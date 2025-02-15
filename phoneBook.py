@@ -13,3 +13,12 @@ def add_contact():
     contacts.append({"name": name, "phone": phone})
     print("Contact added successfully!")
 
+def view_contacts():
+    
+    if not contacts:
+        print("No contacts found.")
+    else:
+        print("\n--- Contact List ---")
+        for i, contact in enumerate(contacts, 1):
+            print(f"{i}. {contact['name']} - {contact['phone']}")
+        print("---------X-----------")
