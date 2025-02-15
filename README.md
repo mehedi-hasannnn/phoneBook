@@ -21,7 +21,7 @@ A beginner-friendly Python project that allows users to **add, view, search, and
 
 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/contact-book.git
+git clone https://github.com/mehedi-hasannnn/phoneBook.git
 cd contact-book
 ```
 
